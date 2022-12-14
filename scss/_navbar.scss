@@ -1,0 +1,20 @@
+@import "./_variables";
+
+.nav__list {
+  li {
+    margin: 0 8px;
+
+    a {
+      text-align: right;
+      display: inline;
+      color: $black;
+      text-transform: uppercase;
+      text-decoration: none;
+      text-align: right;
+
+      &:hover {
+        opacity: 0.65;
+      }
+    }
+  }
+}

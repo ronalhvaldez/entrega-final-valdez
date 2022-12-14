@@ -1,0 +1,22 @@
+{
+  "name": "segunda-entrega-valdez",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronalhvaldez/segunda-entrega-valdez.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronalhvaldez/segunda-entrega-valdez/issues"
+  },
+  "homepage": "https://github.com/ronalhvaldez/segunda-entrega-valdez#readme",
+  "dependencies": {
+    "sass": "^1.56.2"
+  }
+}
