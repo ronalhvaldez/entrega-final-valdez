@@ -125,13 +125,19 @@ footer {
 .merch {
   display: flex;
   flex-direction: row;
-  width: 10px;
-  height: 10px;
+  justify-items: space-evenly;
+}
+.merch .img, .merch .where, .merch .call-us {
+  width: 300px;
+  height: 300px;
+  padding: 24px 32px;
 }
 
 .where, .call-us {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact__us {

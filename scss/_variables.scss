@@ -3,3 +3,8 @@ $secondary-color: #f8cc93;
 
 $black: #000;
 $white: #fff;
+
+@mixin paragraph {
+  padding: 24px 0;
+  text-align: center;
+}
